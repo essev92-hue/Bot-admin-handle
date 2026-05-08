@@ -1,0 +1,20 @@
+{
+  "name": "bot-admin-handle",
+  "version": "1.0.0",
+  "description": "WA Kicker Bot with File Tools",
+  "main": "shared.js",
+  "scripts": {
+    "start": "node shared.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "telegraf": "^4.15.3",
+    "qrcode": "^1.5.3",
+    "dotenv": "^16.3.1",
+    "pino": "^8.17.2",
+    "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
